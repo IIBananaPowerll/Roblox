@@ -39,7 +39,7 @@ _G.Raid = { --Raid autofarm
     ["Auto"] = false, --Will auto find your best key
   ["Tier"] = 20, --Does not matter what you put in here if you have auto set 2 true.
   ["wait_time"] = 0 --If you have good gear, just leave this at 0, if you have bad gear read this:
-  --The more time you wait = more damage.
+    --The more time you wait = more damage.
   --READ THIS OKAY: Only spells that has 4 seconds of cooldown, or less will work with the spell spammer.
 }
 

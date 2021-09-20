@@ -2,6 +2,7 @@
 Dungeon Quest info:
 
 _G.idk = {
+
     ["GetDaily"] = false, --Will auto get daily reward
     autopoints = {
         ["Enabled"] = true,
@@ -10,10 +11,12 @@ _G.idk = {
 }
 
 _G.shit = { --Normal dungeon autofarm
+
     ["Enabled"] = true, --Turn off / on normal autofarm
     ["AutoDungeon"] = true, --Will find the best dungeon
     moarshit = {
         ["Enabled"] = true, --Custom dungeon settings
+        
         ["CustomDungeon"] = "Orbital Outpost",
     },
     ["Difficulty"] = "Nightmare", --This will change if you uh have auto dungeon on
@@ -31,6 +34,7 @@ _G.shit = { --Normal dungeon autofarm
 }
 
 _G.Raid = { --Raid autofarm
+    
     ["Enabled"] = false,
     ["Auto"] = false, --Will auto find your best key
   ["Tier"] = 20, --Does not matter what you put in here if you have auto set 2 true.
@@ -40,6 +44,7 @@ _G.Raid = { --Raid autofarm
 }
 
 _G.test = { --Autosell 
+    
     ["Common"] = true,
     ["Uncommon"] = true,
     ["Rare"] = false,
